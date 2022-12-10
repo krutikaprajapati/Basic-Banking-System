@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Roboto&display=swap');
+
+* {
+    margin-inline: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    /* background-color: #020436; */
+}
+
+.navbar {
+    background-color: #020436;
+    border-bottom: 1px solid white;
+}
+
+/* #35b730 */
+.navbar .btn {
+    color: #35b730;
+}
+
+.navbar .btn:hover {
+    color: white;
+    border: 1px solid #35b730;
+}
+
+.Container .row .col-md-5 p {
+    font-size: 3.5rem;
+    color: white;
+    /* margin-top: 4rem; */
+    margin: 4rem auto;
+
+}
+
+.Container .row .col-md-7 img {
+    margin-top: 4rem;
+}
+
+img.vert-move {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+img.vert-move {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+table {
+    font-weight: 600;
+}
+
+th {
+    padding: 0.3rem;
+    background-color: #020436;
+    color: white;
+}
+
+td {
+    color: #020436;
+    text-align: center;
+    padding: 0.1rem;
+    border-bottom: 1px solid #020436 !important;
+}
+
+table .btn, .addmoney .btn, .witmoney .btn {
+    background-color: #020436;
+    color: #35b730;
+    padding: 0.2rem 0.8rem;
+    border: 1px solid white;
+    font-size: medium;
+}
+
+table .btn:hover, .addmoney .btn:hover, .witmoney .btn:hover {
+    background-color: #35b730;
+    color: #020436;
+    padding: 0.2rem 0.8rem;
+    border: 1px solid white;
+}
+
+#table-wrapper {
+    position: relative;
+}
+
+#table-scroll {
+    height: 590px;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+#table-wrapper table {
+    width: 100%;
+
+}
+
+.addmoney .col-md-4, .witmoney .col-md-4 {
+    border: 2px solid #35b730;
+    padding: 2rem;
+}
+
+.addmoney h5, .witmoney h5 {
+    font-weight: 600;
+    color: #020436;
+}
+
+.addmoney label, option, .witmoney label, option {
+    color: #35b730;
+    font-weight: 600;
+}
